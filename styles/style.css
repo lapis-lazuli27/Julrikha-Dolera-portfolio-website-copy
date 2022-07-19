@@ -1,0 +1,534 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+
+/***************** For mobile *****************/
+/**** "Julrikha Dolera" webpage ****/
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+body {
+    background-image: url(images/web_development_background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #0000ff;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.topnav .icon {
+    display: none;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.menus {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#my-name {
+    text-align: center;
+    margin: 12%;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+#my-position {
+    text-align: center;
+    margin: 12%;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+#my-projects-button-container  {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#my-projects-button-container a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #0000ff;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #0000ff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.footer-paragraph {
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+
+
+/**** "My Skills" webpage ****/
+#my-skills-container {
+    margin: 25px;
+}
+
+#my-skills-container #my-skills {
+    text-align: center;
+    color: #ffffff;
+}
+
+.technology-skills-title {
+    background-color: #ffffff;
+    margin-top: 13%;
+    margin-bottom: 3%;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.technology-skills-title p {
+    text-align: center;
+    padding: 13px;
+    font-size: 23px;
+}
+
+.technology-skill {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.technology-skill img {
+    width: 45px;
+}
+
+.technology-skill p {
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 11px;
+}
+
+
+/**** "My Projects" webpage ****/
+#my-projects-container {
+    margin: 25px;
+}
+
+#my-projects-container #my-projects {
+    text-align: center;
+    color: #ffffff;
+}
+
+.project-information {
+    margin: 12.50%;
+    display: grid;
+}
+
+.project-image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.tools-container {
+    background-color: #ffffff;
+}
+
+.tools-container img {
+    width: 30px;
+}
+
+.project-title-container {
+    background-color: #26a126;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.view-on-github-container {
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #5213c3;
+}
+
+.view-on-github-container div {
+    text-align: center;
+}
+
+.view-live-version-container {
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #ff0000;
+}
+
+.view-live-version-container div {
+    text-align: center;
+}
+
+.go-back-to-home-page-container {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.go-back-to-home-page-container a {
+    color: #ffffff;
+}
+
+
+/**** "About me" webpage ****/
+#about-me-container {
+    margin: 25px;
+}
+
+#about-me-container #about-me {
+    text-align: center;
+    color: #ffffff;
+}
+
+#default-profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 43px;
+    width: 250px;
+    border: 2px solid #ffffff;
+}
+
+#about-me-paragraphs-container {
+    background-color: #e7e7e7;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.about-me-paragraphs {
+    text-align: start;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+#follow-me-on-container {
+    margin-top: 50px;
+}
+
+#follow-me-on-container p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.social-media-logos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.social-media-logos {
+    width: 40px;
+}
+
+#email-me-at-container {
+    margin-top: 50px;
+}
+
+#email-me-at-container {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+/**** "My Resume" webpage ****/
+#my-resume-container {
+    margin: 25px;
+}
+
+#my-resume-container #my-resume {
+    text-align: center;
+    color: #ffffff;
+}
+
+#resume-image-container {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#resume-image-container img {
+    width: 200px;
+}
+
+#download-container  {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#download-container a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #0000ff;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+/***************** For tablet *****************/
+@media only screen and (min-width: 768px) {
+    /**** "Julrikha Dolera" webpage ****/
+    .social-media-logos-container {
+        margin-bottom: 40px;
+    }
+}
+
+
+/***************** For laptop and desktop *****************/
+@media only screen and (min-width: 1000px) {
+    /**** "Julrikha Dolera" webpage ****/
+    /* .header-image {
+        width: 50px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+    .topnav a:hover {
+        background-color: #ffffff;
+        color: #0000ff;
+    }
+
+    #my-name {
+        margin-bottom: 3%;
+        margin-top: 6%;
+    }
+
+    #my-position {
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+
+    #my-projects-button-container  {
+        margin-bottom: 100px;
+    }
+
+    #my-projects-button-container a:hover {
+        background-color: #ffffff;
+        color: #0000ff;
+    }
+
+    .social-media-logos-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 175px;
+        flex-wrap: wrap;
+    }
+
+    .footer-paragraph {
+        font-size: 18px;
+    }
+
+
+    /**** "My Skills" webpage ****/
+    #my-skills-container {
+        margin-top: 6%;
+        margin-bottom: -6%;
+    }
+
+    #my-skills-container #my-skills {
+        font-size: 35px;
+    }
+
+    #technology-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 7.5%;
+        margin-bottom: 7.5%;
+    }
+
+    .technology-skills-title {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .technology-skills-title p {
+        padding: 35px;
+        font-size: 25px;
+    }
+
+    .technology-skill {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .go-back-to-home-page-container {
+        display: none;
+    }
+
+
+    /**** "My Projects" webpage ****/
+    #my-projects-container {
+        margin-top: 6%;
+        margin-bottom: 2%;
+    }
+    
+    #my-projects-container #my-projects {
+        font-size: 35px;
+    }
+
+    .projects-container {
+        display: flex;
+        align-content: space-around;
+        justify-content: center;
+        flex-wrap: wrap
+    }
+
+    .project-information {
+        margin: 6%;
+    }
+    
+    .project-image-container img {
+        width: 400px;
+    }
+
+    .view-on-github-container {
+        color: #cdcdcd;
+        background-color: #5213c3;
+    }
+    
+    .view-live-version-container {
+        color: #cdcdcd;
+        background-color: #f30000;
+    }
+
+    .view-on-github-container:hover {
+        color: #ffffff;
+        background-color: #5d16e0;
+    }
+
+    .view-live-version-container:hover {
+        color: #ffffff;
+        background-color: #ff0000;
+    }
+
+
+    /**** "About me" webpage ****/
+    #about-me-container {
+        margin-top: 4%;
+    }
+    
+    #about-me-container #about-me {
+        font-size: 35px;
+    }
+
+    #profile-pic-and-about-me-paragraph {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-left: 200px;
+        margin-right: 200px;
+        gap: 75px;
+    }
+    
+    #default-profile-pic {
+        width: 200px;
+        height: 165px;
+        margin: 0px;
+        margin-top: 30px
+    }
+
+    .about-me-paragraphs {
+        margin: 0 0 0 0;
+        padding: 17.5px;
+    }
+
+    #email-me-at-container {
+        margin-bottom: 60px;
+    }
+
+
+    /**** "My Resume" webpage ****/
+    #my-resume-container {
+        margin-top: 4%;
+    }
+
+    #my-resume-container #my-resume {
+        font-size: 35px;
+    }
+
+    #download-container a:hover {
+        background-color: #ffffff;
+        color: #0000ff;
+    }
+}
